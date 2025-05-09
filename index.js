@@ -162,15 +162,14 @@ const unfundedGameCount = unfundedGames.length;
 
 const fundedGamesCount = fundedGames.length;
 
-let totalFundedRaised = fundedGames.reduce ( (sub, GAMES_JSON) => {
+let totalFundedRaised = fundedGames.reduce ( (sub, fundedGames) => {
     return sub + fundedGames.pledged;
 }, 0);
 
-//console.log(totalFundedRaised);
 
 // create a string that explains the number of unfunded games using the ternary operator
 let pluralOrNot = unfundedGameCount == 1 ? "game" : "games";
-let fundMessage = `A total of $${totalFundedRaised} has been raised for ${fundedGamesCount} games. Currently ${unfundedGameCount} ${pluralOrNot} remains unfunded. We need your help to fund these amazing games!`;
+let fundMessage = `A total of $${totalFundedRaised.toLocaleString()} has been raised for ${fundedGamesCount} games. Currently ${unfundedGameCount} ${pluralOrNot} remains unfunded. We need your help to fund these amazing games!`;
 
 // create a new DOM element containing the template string and append it to the description container
 const fundingMessege = document.createElement("div");
