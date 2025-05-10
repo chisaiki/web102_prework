@@ -8,13 +8,20 @@
 
   <body>
     <!-- header row with logo -->
-    <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
-        <img id="tentacles" src="assets/tentacles.png">
+    <div>
+        <h1 class="header"><img id="tentacles" src="assets/tentacles.png">Sea Monster Crowdfunding<img id="tentacles" src="assets/tentacles.png">
+            <div class="navigation">
+                <a href="#">Home</a>
+                <a href="#ourgames">Our Games | </a>
+                <input type="text" placeholder="Search..">
+            </div>
+        </h1>
     </div>
 
     <!-- background info about company -->
+    <br />
+    <br />
+    <br />
     <h2 class="section-header">Welcome to Sea Monster!</h2>
     <div class="intro" id="description-container">
         <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
@@ -31,8 +38,7 @@
         </div>
         <div class="stats-card">
             <h3>Total Raised</h3>
-            <p id="total-raised">
-            </p>
+            <p id="total-raised"></p>
         </div>
         <div class="stats-card">
             <h3>Total Number of Games</h3>
@@ -41,18 +47,17 @@
     </div>
     <div class="stats-container" id="top-games">
         <div class="stats-card" id="first-game">
-            <h3>🥇 Top Funded Game</h3>
+            <h3>🥇 Top Funded Game 🥇</h3>
             <p id= "top-funded"></p>
         </div>
         <div class="stats-card" id="second-game">
-            <h3>🥈 Runner Up</h3>
+            <h3>🥈 Runner Up 🥈</h3>
             <p id= "runnerup-funded"> </p>
         </div>
     </div>
 
     <!-- list of games funded by Sea Monster -->
     <h2 class="section-header">Our Games</h2>
-    <p>Check out each of our games below!</p>
     <div id="button-container">
         <button class="button-style" id="unfunded-btn">Show Unfunded Only</button>
         <button class="button-style" id="funded-btn">Show Funded Only</button>

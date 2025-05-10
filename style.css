@@ -10,25 +10,43 @@ body {
 }
 
 .header {
-    display: flex;
     background-color: lightblue;
-    padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    position: fixed;
+    text-align: center;
+    text-shadow: red 2px 5px;
+    font-size: 60px;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s; /* Transition effect */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation{
+    text-align: center;
+    font-size: 40px;
 }
 
 .intro {
     color:#FFFFFF;
     font-size: 30px;
+    text-align: center;
 }
 
 .section-header{
     color:#FFFFFF;
     font-size: 50px;
     text-shadow: #fc0 1px 0 10px;
+    text-align: center;
 }
+
 
 .stats-container {
     display: flex;
@@ -36,6 +54,8 @@ body {
     align-items: center;
     cursor: pointer;
     box-shadow: 0px 0px 30px lightblue;
+    font-size: 30px;
+    text-shadow: rgb(72, 255, 0) 1px 0 10px;
     
 }
 
@@ -82,6 +102,8 @@ body {
 .button-style {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .button-style:hover {
@@ -97,5 +119,5 @@ button {
     border: none;
     padding: 1%;
     margin: 1%;
-    border-radius: 7px;
+    border-radius: 20px;
 }
