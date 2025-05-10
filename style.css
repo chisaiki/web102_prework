@@ -18,7 +18,7 @@ body {
     position: fixed;
     text-align: center;
     text-shadow: red 2px 5px;
-    font-size: 60px;
+    font-size: 50px;
     top: 0;
     width: 100%;
     transition: top 0.3s; /* Transition effect */
@@ -31,7 +31,9 @@ a {
 
 .navigation{
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
+    color:#000000;
+    text-shadow: rgb(255, 255, 255) 2px 5px;
 }
 
 .intro {
