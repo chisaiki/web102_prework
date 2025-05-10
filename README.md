@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [X] Changed websites aesthetic and visuals.
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Fixed navigation bar to quickly go through key points in the website. 
 
 ## Video Walkthrough
 
